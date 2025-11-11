@@ -1,0 +1,27 @@
+projectPath: .
+expansionPath: ./vlocity/
+manifest:
+#- OmniScript/gsvTvs_FormularioGenerarEntrevistaPDF_English
+#- DataRaptor/gsvTvsGetAccountAndContactData
+#- DataRaptor/gsvTransformForPdfSeguroPlusPN
+#- DataRaptor/gsvTransformForPdfSeguroProfPN
+#- DataRaptor/gsvTransformForPdfSeguroPlusPJ
+#- DataRaptor/gsvTransformForPdfSeguroProfPJ
+#- OmniScript/gsvTvsFormularioPdfDocumentoFirmado
+#- OmniScript/Firmado_DocumentoFirmado
+#- FlexCard/ActualizarEstadoFirmaDocCredit
+#- DataRaptor/gsvDRLPerfilSeguroTomador
+#- DataRaptor/gsvDRESolicitudCredito
+#- DataRaptor/gsvTransformForPdfCreditoTomDifAseg
+#- DataRaptor/DRPostUpdateInsuredAccount
+- OmniScript/gsvTvs_FormularioPdfDocumentoFirmado
+
+activate: true #los componentes deben activarse después de ser desplegados.
+maxDepth: -1 #todos los componentes relacionados se incluyen.
+continueAfterError: true #Permite que el proceso de despliegue continúe incluso si se encuentra con errores.
+compileOnBuild: true #los componentes deben ser compilados durante el proceso de construcción.
+useAllRelationships: false #Si es true, se incluirán todos los componentes relacionados en el despliegue. false indica que solo se incluirán los componentes especificados directamente en el manifest.
+supportHeadersOnly: true #solo se deben desplegar los encabezados de los componentes, lo cual puede ser útil para ciertas operaciones donde no se necesita desplegar el contenido completo.
+supportForceDeploy: true #Permite un despliegue forzado, sobrescribiendo posibles conflictos o diferencias con el entorno de destino.
+isActive: true # Similar a activate, indica que los componentes deben estar activos y listos para usar después del despliegue.
+#delete: true #Permite la eliminación de componentes en el entorno de destino si no están presentes en la configuración de origen. Esto asegura que el entorno de destino se mantenga sincronizado con la configuración actual.
