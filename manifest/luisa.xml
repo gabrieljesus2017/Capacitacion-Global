@@ -4,5 +4,9 @@
 		<members>Luisa_Arteaga__c</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>Luisa_Arteaga__c-Formato Luisa Arteaga</members>
+		<name>Layout</name>
+	</types>
 	<version>65.0</version>
 </Package>
