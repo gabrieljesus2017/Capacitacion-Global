@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Luisa_Arteaga__c</members>
+		<members>Paola_Reina__c</members>
+		<members>Perro__c</members>
 		<name>CustomObject</name>
-	</types>
-	<types>
-		<members>Luisa_Arteaga__c-Formato Luisa Arteaga</members>
-		<name>Layout</name>
 	</types>
 	<version>65.0</version>
 </Package>
