@@ -154,12 +154,12 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <gender>Feminine</gender>
-    <label>Nicolas Bustos</label>
+    <label>Luisa Arteaga Ruiz--</label>
     <nameField>
         <label>Nombre de Luisa Arteaga</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Jose Viancha</pluralLabel>
+    <pluralLabel>Luisa Arteagas</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
